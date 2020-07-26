@@ -540,7 +540,7 @@ var BungieAPI = /** @class */ (function () {
                                         switch (_a.label) {
                                             case 0:
                                                 qs = querystring.stringify(params, '&', '=');
-                                                composed = 'https://www.bungie.net/Platform/' + url + (qs ? '?' + qs : '') + '/';
+                                                composed = 'https://www.bungie.net/Platform/' + url + '/' + (qs ? '?' + qs : '');
                                                 console.log(composed);
                                                 return [4 /*yield*/, timeoutPromise(5000, new Error('Timed Out!'), fetch(composed, {
                                                         headers: {
