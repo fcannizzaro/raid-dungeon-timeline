@@ -540,7 +540,7 @@ var BungieAPI = /** @class */ (function () {
                                         switch (_a.label) {
                                             case 0:
                                                 qs = querystring.stringify(params, '&', '=');
-                                                composed = 'https://www.bungie.net/Platform/' + url + '/' + (qs ? '?' + qs : '');
+                                                composed = (url.startsWith('http') ? '' : 'https://www.bungie.net/Platform/') + url + '/' + (qs ? '?' + qs : '');
                                                 console.log(composed);
                                                 return [4 /*yield*/, timeoutPromise(5000, new Error('Timed Out!'), fetch(composed, {
                                                         headers: {
@@ -585,7 +585,7 @@ var DestinyAPI = /** @class */ (function () {
         this.client = client;
     }
     DestinyAPI.prototype.getPostGameCarnageReport = function (id) {
-        return this.client("Destiny2/Stats/PostGameCarnageReport/" + id);
+        return this.client("https://stats.bungie.net/Platform/Destiny2/Stats/PostGameCarnageReport/" + id);
     };
     DestinyAPI.prototype.getActivityHistory = function (membershipType, destinyMembershipId, characterId, params) {
         return this.client("Destiny2/" + membershipType + "/Account/" + destinyMembershipId + "/Character/" + characterId + "/Stats/Activities/", { params: params });
