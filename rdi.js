@@ -664,7 +664,7 @@ var activity_1 = require("./util/activity");
 // @ts-ignore
 var swivel = require("swivel");
 var db_1 = require("./util/db");
-var bungie = new client_1.BungieAPI('5ca265408385489db9239e64691e4f82');
+var bungie = new client_1.BungieAPI('387dbc6ecb3b48ed9983ad926fea5a8e');
 var user = new user_1.User(bungie);
 var db = new db_1.RaidDungeonDb();
 var activity = new activity_1.Activity(bungie, db);
