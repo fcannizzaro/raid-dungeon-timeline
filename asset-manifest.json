@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4dc7bfd9.chunk.css",
+    "main.js": "/static/js/main.160cc0f6.chunk.js",
+    "main.js.map": "/static/js/main.160cc0f6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.93b128a1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.93b128a1.js.map",
+    "static/css/2.99f1a408.chunk.css": "/static/css/2.99f1a408.chunk.css",
+    "static/js/2.d5910142.chunk.js": "/static/js/2.d5910142.chunk.js",
+    "static/js/2.d5910142.chunk.js.map": "/static/js/2.d5910142.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b1793d001bf61635826c2bfa746400d1.js": "/precache-manifest.b1793d001bf61635826c2bfa746400d1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.99f1a408.chunk.css.map": "/static/css/2.99f1a408.chunk.css.map",
+    "static/css/main.4dc7bfd9.chunk.css.map": "/static/css/main.4dc7bfd9.chunk.css.map",
+    "static/js/2.d5910142.chunk.js.LICENSE.txt": "/static/js/2.d5910142.chunk.js.LICENSE.txt",
+    "static/media/class_hunter.svg": "/static/media/class_hunter.a63494e2.svg",
+    "static/media/class_titan.svg": "/static/media/class_titan.b774c00e.svg",
+    "static/media/class_warlock.svg": "/static/media/class_warlock.b1277b64.svg",
+    "static/media/dungeon.png": "/static/media/dungeon.c13c8ba5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93b128a1.js",
+    "static/css/2.99f1a408.chunk.css",
+    "static/js/2.d5910142.chunk.js",
+    "static/css/main.4dc7bfd9.chunk.css",
+    "static/js/main.160cc0f6.chunk.js"
+  ]
+}
