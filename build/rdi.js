@@ -1126,12 +1126,7 @@ exports.assignTags = function (activity) {
     switch (playersCount) {
         case 1:
             if (!players[0].flawless) {
-                if (isRaid) {
-                    tags.push(TAGS.solo);
-                }
-                else {
-                    fresh && tags.push(TAGS.solo);
-                }
+                tags.push(TAGS.solo);
             }
             else if (fresh) {
                 fresh && tags.push(TAGS.soloFlawless);
