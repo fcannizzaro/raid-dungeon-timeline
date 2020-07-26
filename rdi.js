@@ -544,8 +544,7 @@ var BungieAPI = /** @class */ (function () {
                                                 console.log(composed);
                                                 return [4 /*yield*/, timeoutPromise(5000, new Error('Timed Out!'), fetch(composed, {
                                                         headers: {
-                                                            'X-API-Key': apikey,
-                                                            Origin: 'http://localhost:3000'
+                                                            'X-API-Key': apikey
                                                         }
                                                     }))];
                                             case 1:
